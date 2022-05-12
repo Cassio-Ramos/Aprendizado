@@ -1,0 +1,11 @@
+nome = str(input('Digite seu nome completo: '))
+nma = nome.upper()
+nmi = nome.lower()
+tr = nome.replace(' ', '')
+tm = len(tr)
+dividido = nome.split()
+p = dividido[0]
+tp = len(p)
+print('Seu nome completo é {}'.format(nome))
+print('Maiusculo: {}\nMinusculo: {}\nNúmero de letras totais: {}'.format(nma, nmi, tm))
+print('Número de letras do primeiro nome: {}'.format(tp))
